@@ -1,5 +1,5 @@
 # AlexPhoneApp
-Using Angular2 components from Angular 1.5 app. Angular 2 component uses Angular 1.5 services. 
+Using Angular2 components from Angular 1.5 app. One of the Angular 2.0 components is using uses Angular 1.5 services. 
 Angular PhoneCat Tutorial App is used as a base.
 
 1. Extract images from phones.zip, located at AlexPhoneApp\PhoneApp\app\img folder.
