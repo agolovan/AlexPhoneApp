@@ -6,6 +6,6 @@ Angular PhoneCat Tutorial App is used as a base.
 2. Open comand window and select PhoneApp folder.
 3. Run "bower install".
 4. Run "npm start".
-5. Open another command, select PhoneApp folder and run "npm run tsc:w".
+5. Open different command window, select PhoneApp folder again and run "npm run tsc:w".
 6. Use "http://localhost:8000/#!/phones" to run this app.
 
