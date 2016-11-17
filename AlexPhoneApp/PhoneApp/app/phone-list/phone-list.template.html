@@ -1,0 +1,36 @@
+<div class="container-fluid">
+	
+	<div class="row">
+		<div class="col-md-2">
+			<!--Sidebar content-->
+
+			<counter counter={{$ctrl.initNumber}} maxvalue = {{$ctrl.maxNumber}}>
+				Click number:
+			</counter>
+
+		</div>
+		<div class="col-md-10">
+			<!--Body content-->
+			<ul class="phones">
+				<li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+					class="thumbnail phone-list-item">
+					<a href="{{$ctrl.path}}/{{phone.id}}" class="thumb">
+						<img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
+					</a>
+					<a href="{{$ctrl.path}}/{{phone.id}}">{{phone.name}}</a>
+					<p>{{phone.snippet}}</p>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<!--<video id="video" class="video-js vjs-default-skin" controls autoplay>
+		<source src="https://d388xbsovh22t9.cloudfront.net/01_AppIntro/01_AppIntro.m3u8"
+				type="application/x-mpegURL">
+	</video>-->
+
+	<!-Ng2 component-->
+	<pagefooterng2></pagefooterng2> 
+
+</div>
